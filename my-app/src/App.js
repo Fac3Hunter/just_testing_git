@@ -12,6 +12,7 @@ import styles from "./components/Buttons.module.css";
 import jQuery from "jquery";
 
 function App() {
+  let [newState, changeNewState] = useState("lol");
   useEffect(() => {
     document.body.style.backgroundColor = "#000000";
     document.body.style.color = "#ffffff";
