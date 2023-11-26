@@ -2,7 +2,13 @@ import logo from "./logo.svg";
 import "./App.css";
 
 function App() {
-  return <p>New Change Just Dropped!</p>;
+  return (
+    <div>
+      <p>
+        Even <b>Newer</b> Change Just Dropped!
+      </p>
+    </div>
+  );
 }
 
 export default App;
